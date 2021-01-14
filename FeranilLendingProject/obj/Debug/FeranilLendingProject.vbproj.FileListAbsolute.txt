@@ -1,0 +1,12 @@
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\bin\Debug\FeranilLendingProject.exe.config
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\bin\Debug\FeranilLendingProject.exe
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\bin\Debug\FeranilLendingProject.pdb
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\bin\Debug\FeranilLendingProject.xml
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.vbprojAssemblyReference.cache
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.Form1.resources
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.Resources.resources
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.vbproj.GenerateResource.cache
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.vbproj.CoreCompileInputs.cache
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.exe
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.xml
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.pdb
