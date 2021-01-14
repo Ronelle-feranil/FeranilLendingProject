@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class frmLoginPage
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -29,11 +29,12 @@ Partial Class Form1
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.asd = New System.Windows.Forms.GroupBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.btnExit = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lnkForgotPassword = New System.Windows.Forms.LinkLabel()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.asd.SuspendLayout()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnLogin
@@ -83,16 +84,18 @@ Partial Class Form1
         'asd
         '
         Me.asd.BackColor = System.Drawing.Color.Silver
-        Me.asd.Controls.Add(Me.GroupBox1)
-        Me.asd.Location = New System.Drawing.Point(39, 89)
+        Me.asd.BackgroundImage = Global.FeranilLendingProject.My.Resources.Resources.Purple_Modern_Technology___Gaming_Logo
+        Me.asd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.asd.Location = New System.Drawing.Point(39, 90)
         Me.asd.Name = "asd"
-        Me.asd.Size = New System.Drawing.Size(685, 415)
+        Me.asd.Size = New System.Drawing.Size(362, 415)
         Me.asd.TabIndex = 6
         Me.asd.TabStop = False
         '
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Controls.Add(Me.lnkForgotPassword)
         Me.GroupBox1.Controls.Add(Me.CheckBox1)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
@@ -100,22 +103,23 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.btnLogin)
-        Me.GroupBox1.Location = New System.Drawing.Point(355, 1)
+        Me.GroupBox1.Location = New System.Drawing.Point(390, 90)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(330, 414)
+        Me.GroupBox1.Size = New System.Drawing.Size(330, 415)
         Me.GroupBox1.TabIndex = 6
         Me.GroupBox1.TabStop = False
         '
-        'btnExit
+        'PictureBox1
         '
-        Me.btnExit.BackColor = System.Drawing.Color.Red
-        Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnExit.Location = New System.Drawing.Point(740, -1)
-        Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(26, 23)
-        Me.btnExit.TabIndex = 7
-        Me.btnExit.Text = "X"
-        Me.btnExit.UseVisualStyleBackColor = False
+        Me.PictureBox1.BackgroundImage = Global.FeranilLendingProject.My.Resources.Resources._416_4167138_silhouette_headshot_clip_art
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Image = Global.FeranilLendingProject.My.Resources.Resources._416_4167138_silhouette_headshot_clip_art
+        Me.PictureBox1.InitialImage = Global.FeranilLendingProject.My.Resources.Resources._416_4167138_silhouette_headshot_clip_art
+        Me.PictureBox1.Location = New System.Drawing.Point(109, 23)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(119, 121)
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
         '
         'lnkForgotPassword
         '
@@ -137,7 +141,18 @@ Partial Class Form1
         Me.CheckBox1.Text = "Remember me"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'Form1
+        'btnExit
+        '
+        Me.btnExit.BackColor = System.Drawing.Color.Red
+        Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnExit.Location = New System.Drawing.Point(740, -1)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(26, 23)
+        Me.btnExit.TabIndex = 7
+        Me.btnExit.Text = "X"
+        Me.btnExit.UseVisualStyleBackColor = False
+        '
+        'frmLoginPage
         '
         Me.AccessibleRole = System.Windows.Forms.AccessibleRole.None
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -146,15 +161,16 @@ Partial Class Form1
         Me.BackgroundImage = Global.FeranilLendingProject.My.Resources.Resources.wall_wallpaper_concrete_colored_painted_textured_concept_53876_31799
         Me.CancelButton = Me.btnExit
         Me.ClientSize = New System.Drawing.Size(765, 565)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.asd)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Form1"
+        Me.Name = "frmLoginPage"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
-        Me.asd.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -169,4 +185,5 @@ Partial Class Form1
     Friend WithEvents lnkForgotPassword As LinkLabel
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents btnExit As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

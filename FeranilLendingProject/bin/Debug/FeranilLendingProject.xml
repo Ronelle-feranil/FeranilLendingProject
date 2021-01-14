@@ -22,6 +22,16 @@ FeranilLendingProject
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:FeranilLendingProject.My.Resources.Resources._416_4167138_silhouette_headshot_clip_art">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.Purple_Modern_Technology___Gaming_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:FeranilLendingProject.My.Resources.Resources.wall_wallpaper_concrete_colored_painted_textured_concept_53876_31799">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

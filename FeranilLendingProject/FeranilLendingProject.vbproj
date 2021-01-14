@@ -122,5 +122,11 @@
   <ItemGroup>
     <None Include="Resources\wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purple Modern Technology &amp; Gaming Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\416-4167138_silhouette-headshot-clip-art.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

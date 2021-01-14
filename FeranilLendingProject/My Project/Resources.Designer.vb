@@ -63,6 +63,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _416_4167138_silhouette_headshot_clip_art() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("416-4167138_silhouette-headshot-clip-art", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Purple_Modern_Technology___Gaming_Logo() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Purple Modern Technology & Gaming Logo", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property wall_wallpaper_concrete_colored_painted_textured_concept_53876_31799() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799", resourceCulture)
