@@ -27,7 +27,52 @@ FeranilLendingProject
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.kisspng_computer_icons_icon_design_user_vector_graphics_cl_home_zilkha_biomass_energy_5ca7fb25c94970_7523730715545126778245">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.Lending_Management_System">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.pngegg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.pngegg__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:FeranilLendingProject.My.Resources.Resources.Purple_Modern_Technology___Gaming_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.User_Management">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.Users__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.Users__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.Users__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.Users__4_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

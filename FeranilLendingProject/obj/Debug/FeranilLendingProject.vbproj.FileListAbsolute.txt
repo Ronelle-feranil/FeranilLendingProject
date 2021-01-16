@@ -11,3 +11,5 @@ C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingPr
 C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.pdb
 C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.frmLoginPage.resources
 C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.main.resources
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.black.resources
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.users.resources
