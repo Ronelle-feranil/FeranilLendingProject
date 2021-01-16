@@ -16,3 +16,4 @@ C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingPr
 C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.onboard.resources
 C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.reports.resources
 C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.settings.resources
+C:\Users\Ronelle Feranil\Documents\GitHub\FeranilLendingProject\FeranilLendingProject\obj\Debug\FeranilLendingProject.collect.resources

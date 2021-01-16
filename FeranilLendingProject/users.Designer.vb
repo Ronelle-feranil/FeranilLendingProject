@@ -22,7 +22,7 @@ Partial Class users
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Ronelle", "Feranil", "ronelleadnag", "Birthplace?", "Calapan City", "YES", "YES", "YES", "YES"}, -1)
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Ronelle", "Feranil", "ronelleadnag", "Birthplace?", "Calapan City", "YES", "YES", "YES", "YES"}, -1)
         Me.btnSave = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -60,7 +60,7 @@ Partial Class users
         Me.btnSave.Location = New System.Drawing.Point(476, 118)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(84, 29)
-        Me.btnSave.TabIndex = 1
+        Me.btnSave.TabIndex = 8
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
@@ -78,7 +78,7 @@ Partial Class users
         Me.TextBox1.Location = New System.Drawing.Point(70, 81)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(287, 20)
-        Me.TextBox1.TabIndex = 4
+        Me.TextBox1.TabIndex = 3
         '
         'GroupBox1
         '
@@ -112,7 +112,7 @@ Partial Class users
         Me.btnCancel.Location = New System.Drawing.Point(713, 118)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(84, 29)
-        Me.btnCancel.TabIndex = 13
+        Me.btnCancel.TabIndex = 10
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
@@ -121,7 +121,7 @@ Partial Class users
         Me.btnClear.Location = New System.Drawing.Point(596, 118)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(84, 29)
-        Me.btnClear.TabIndex = 12
+        Me.btnClear.TabIndex = 9
         Me.btnClear.Text = "Clear Fields"
         Me.btnClear.UseVisualStyleBackColor = True
         '
@@ -132,14 +132,14 @@ Partial Class users
         Me.ComboBox1.Location = New System.Drawing.Point(476, 29)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(374, 21)
-        Me.ComboBox1.TabIndex = 11
+        Me.ComboBox1.TabIndex = 5
         '
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(476, 55)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(287, 20)
-        Me.TextBox5.TabIndex = 7
+        Me.TextBox5.TabIndex = 6
         '
         'Label6
         '
@@ -164,7 +164,7 @@ Partial Class users
         Me.TextBox4.Location = New System.Drawing.Point(70, 55)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(287, 20)
-        Me.TextBox4.TabIndex = 10
+        Me.TextBox4.TabIndex = 2
         '
         'Label4
         '
@@ -180,7 +180,7 @@ Partial Class users
         Me.TextBox3.Location = New System.Drawing.Point(70, 29)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(287, 20)
-        Me.TextBox3.TabIndex = 8
+        Me.TextBox3.TabIndex = 1
         '
         'Label3
         '
@@ -196,7 +196,7 @@ Partial Class users
         Me.TextBox2.Location = New System.Drawing.Point(70, 107)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(287, 20)
-        Me.TextBox2.TabIndex = 6
+        Me.TextBox2.TabIndex = 4
         '
         'Label2
         '
@@ -211,7 +211,7 @@ Partial Class users
         '
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.userId, Me.firstName, Me.lastName, Me.username, Me.securityQuestion, Me.answer, Me.usersModule, Me.onboardingModule, Me.reportsModule, Me.ColumnHeader1})
         Me.ListView1.HideSelection = False
-        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1})
+        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem2})
         Me.ListView1.Location = New System.Drawing.Point(22, 242)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(856, 296)
@@ -273,7 +273,7 @@ Partial Class users
         Me.ComboBox2.Location = New System.Drawing.Point(476, 84)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(287, 21)
-        Me.ComboBox2.TabIndex = 15
+        Me.ComboBox2.TabIndex = 7
         '
         'Label7
         '

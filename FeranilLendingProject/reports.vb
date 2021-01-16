@@ -5,6 +5,7 @@
     End Sub
 
     Private Sub reports_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtCode.Focus()
         txtAmontBorrowed.Text = "0.00"
         txtAmountSettled.Text = "0.00"
         lblBalance.Text = "0.00"

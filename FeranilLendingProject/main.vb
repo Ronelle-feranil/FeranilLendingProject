@@ -22,4 +22,23 @@
         black.Show()
         settings.Show()
     End Sub
+
+    Private Sub btnEnterCode_Click(sender As Object, e As EventArgs) Handles btnEnterCode.Click
+        black.Show()
+        collect.Show()
+
+    End Sub
+
+    Private Sub main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Timer1.Enabled = True
+        lblTotalCollection.Text = "0.00"
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        lblTimeAndDate.Text = Format(Now, "yyyy-MM-dd hh:mm:ss")
+    End Sub
+
+    Public Sub UpdateRecords()
+        'Update the total collections label on main dashboard and the list of gridview
+    End Sub
 End Class

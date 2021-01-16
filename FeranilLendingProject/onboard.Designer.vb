@@ -22,7 +22,7 @@ Partial Class onboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Ronelle", "Feranil", "ronelleadnag", "Birthplace?", "Calapan City", "YES", "YES", "YES", "YES"}, -1)
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Ronelle", "Feranil", "ronelleadnag", "Birthplace?", "Calapan City", "YES", "YES", "YES", "YES"}, -1)
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.ListView1 = New System.Windows.Forms.ListView()
@@ -59,7 +59,7 @@ Partial Class onboard
         Me.btnCancel.Location = New System.Drawing.Point(744, 93)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(84, 29)
-        Me.btnCancel.TabIndex = 13
+        Me.btnCancel.TabIndex = 9
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
@@ -68,14 +68,14 @@ Partial Class onboard
         Me.btnClear.Location = New System.Drawing.Point(744, 58)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(84, 29)
-        Me.btnClear.TabIndex = 12
+        Me.btnClear.TabIndex = 8
         Me.btnClear.Text = "Clear Fields"
         Me.btnClear.UseVisualStyleBackColor = True
         '
         'ListView1
         '
         Me.ListView1.HideSelection = False
-        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1})
+        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem2})
         Me.ListView1.Location = New System.Drawing.Point(21, 306)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(857, 231)
@@ -88,7 +88,7 @@ Partial Class onboard
         Me.btnSave.Location = New System.Drawing.Point(744, 24)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(84, 29)
-        Me.btnSave.TabIndex = 1
+        Me.btnSave.TabIndex = 7
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
@@ -99,7 +99,7 @@ Partial Class onboard
         Me.ComboBox1.Location = New System.Drawing.Point(419, 29)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(228, 21)
-        Me.ComboBox1.TabIndex = 11
+        Me.ComboBox1.TabIndex = 5
         '
         'Label5
         '
@@ -115,7 +115,7 @@ Partial Class onboard
         Me.TextBox3.Location = New System.Drawing.Point(97, 29)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(211, 20)
-        Me.TextBox3.TabIndex = 8
+        Me.TextBox3.TabIndex = 1
         '
         'Label3
         '
@@ -131,7 +131,7 @@ Partial Class onboard
         Me.TextBox2.Location = New System.Drawing.Point(97, 107)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(211, 20)
-        Me.TextBox2.TabIndex = 6
+        Me.TextBox2.TabIndex = 4
         '
         'Label2
         '
@@ -172,7 +172,7 @@ Partial Class onboard
         Me.ComboBox2.Location = New System.Drawing.Point(419, 58)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(228, 21)
-        Me.ComboBox2.TabIndex = 15
+        Me.ComboBox2.TabIndex = 6
         '
         'Label6
         '
@@ -188,7 +188,7 @@ Partial Class onboard
         Me.TextBox4.Location = New System.Drawing.Point(97, 55)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(211, 20)
-        Me.TextBox4.TabIndex = 10
+        Me.TextBox4.TabIndex = 2
         '
         'Label4
         '
@@ -204,7 +204,7 @@ Partial Class onboard
         Me.TextBox1.Location = New System.Drawing.Point(97, 81)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(211, 20)
-        Me.TextBox1.TabIndex = 4
+        Me.TextBox1.TabIndex = 3
         '
         'Label1
         '

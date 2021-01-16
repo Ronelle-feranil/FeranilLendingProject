@@ -58,6 +58,8 @@ Partial Class reports
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.txtCode = New System.Windows.Forms.TextBox()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -73,10 +75,10 @@ Partial Class reports
         'btnCancel
         '
         Me.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnCancel.Location = New System.Drawing.Point(212, 71)
+        Me.btnCancel.Location = New System.Drawing.Point(419, 71)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(84, 29)
-        Me.btnCancel.TabIndex = 14
+        Me.btnCancel.TabIndex = 5
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
@@ -113,6 +115,8 @@ Partial Class reports
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.txtCode)
+        Me.GroupBox2.Controls.Add(Me.Label16)
         Me.GroupBox2.Controls.Add(Me.lblBalance)
         Me.GroupBox2.Controls.Add(Me.txtAmountSettled)
         Me.GroupBox2.Controls.Add(Me.txtAmontBorrowed)
@@ -166,10 +170,10 @@ Partial Class reports
         'Button1
         '
         Me.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Button1.Location = New System.Drawing.Point(100, 71)
+        Me.Button1.Location = New System.Drawing.Point(329, 71)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(84, 29)
-        Me.Button1.TabIndex = 16
+        Me.Button1.TabIndex = 4
         Me.Button1.Text = "Print"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -205,15 +209,15 @@ Partial Class reports
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(97, 45)
+        Me.TextBox5.Location = New System.Drawing.Point(97, 71)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(211, 20)
-        Me.TextBox5.TabIndex = 14
+        Me.TextBox5.TabIndex = 3
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(6, 48)
+        Me.Label7.Location = New System.Drawing.Point(6, 74)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(61, 13)
         Me.Label7.TabIndex = 13
@@ -221,15 +225,15 @@ Partial Class reports
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(97, 19)
+        Me.TextBox6.Location = New System.Drawing.Point(97, 45)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(211, 20)
-        Me.TextBox6.TabIndex = 12
+        Me.TextBox6.TabIndex = 2
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(6, 22)
+        Me.Label8.Location = New System.Drawing.Point(6, 48)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(60, 13)
         Me.Label8.TabIndex = 11
@@ -367,7 +371,7 @@ Partial Class reports
         Me.DateTimePicker1.Location = New System.Drawing.Point(343, 19)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(224, 20)
-        Me.DateTimePicker1.TabIndex = 19
+        Me.DateTimePicker1.TabIndex = 6
         Me.DateTimePicker1.Value = New Date(2021, 1, 29, 0, 0, 0, 0)
         '
         'Label14
@@ -408,7 +412,7 @@ Partial Class reports
         Me.DateTimePicker2.Location = New System.Drawing.Point(343, 45)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(224, 20)
-        Me.DateTimePicker2.TabIndex = 21
+        Me.DateTimePicker2.TabIndex = 7
         Me.DateTimePicker2.Value = New Date(2021, 1, 29, 0, 0, 0, 0)
         '
         'Button2
@@ -417,7 +421,7 @@ Partial Class reports
         Me.Button2.Location = New System.Drawing.Point(471, 71)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(84, 29)
-        Me.Button2.TabIndex = 23
+        Me.Button2.TabIndex = 9
         Me.Button2.Text = "Print"
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -427,7 +431,7 @@ Partial Class reports
         Me.Button3.Location = New System.Drawing.Point(354, 71)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(84, 29)
-        Me.Button3.TabIndex = 24
+        Me.Button3.TabIndex = 8
         Me.Button3.Text = "Search"
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -438,6 +442,22 @@ Partial Class reports
         Me.DataGridView2.Name = "DataGridView2"
         Me.DataGridView2.Size = New System.Drawing.Size(833, 271)
         Me.DataGridView2.TabIndex = 22
+        '
+        'txtCode
+        '
+        Me.txtCode.Location = New System.Drawing.Point(97, 19)
+        Me.txtCode.Name = "txtCode"
+        Me.txtCode.Size = New System.Drawing.Size(211, 20)
+        Me.txtCode.TabIndex = 1
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(6, 22)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(35, 13)
+        Me.Label16.TabIndex = 24
+        Me.Label16.Text = "Code:"
         '
         'reports
         '
@@ -508,4 +528,6 @@ Partial Class reports
     Friend WithEvents DateTimePicker2 As DateTimePicker
     Friend WithEvents Label14 As Label
     Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents txtCode As TextBox
+    Friend WithEvents Label16 As Label
 End Class
