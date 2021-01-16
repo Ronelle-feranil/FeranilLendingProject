@@ -87,9 +87,9 @@ Partial Class frmLoginPage
         Me.asd.BackColor = System.Drawing.Color.Silver
         Me.asd.BackgroundImage = Global.FeranilLendingProject.My.Resources.Resources.Purple_Modern_Technology___Gaming_Logo
         Me.asd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.asd.Location = New System.Drawing.Point(39, 90)
+        Me.asd.Location = New System.Drawing.Point(-15, -7)
         Me.asd.Name = "asd"
-        Me.asd.Size = New System.Drawing.Size(362, 415)
+        Me.asd.Size = New System.Drawing.Size(375, 425)
         Me.asd.TabIndex = 6
         Me.asd.TabStop = False
         '
@@ -97,6 +97,7 @@ Partial Class frmLoginPage
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.GroupBox1.Controls.Add(Me.PictureBox1)
+        Me.GroupBox1.Controls.Add(Me.btnExit)
         Me.GroupBox1.Controls.Add(Me.lnkForgotPassword)
         Me.GroupBox1.Controls.Add(Me.CheckBox1)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
@@ -104,7 +105,7 @@ Partial Class frmLoginPage
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.btnLogin)
-        Me.GroupBox1.Location = New System.Drawing.Point(390, 90)
+        Me.GroupBox1.Location = New System.Drawing.Point(351, 0)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(330, 415)
         Me.GroupBox1.TabIndex = 6
@@ -146,7 +147,7 @@ Partial Class frmLoginPage
         '
         Me.btnExit.BackColor = System.Drawing.Color.Red
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnExit.Location = New System.Drawing.Point(740, -1)
+        Me.btnExit.Location = New System.Drawing.Point(304, -2)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(26, 23)
         Me.btnExit.TabIndex = 7
@@ -158,12 +159,10 @@ Partial Class frmLoginPage
         Me.AccessibleRole = System.Windows.Forms.AccessibleRole.None
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BackgroundImage = Global.FeranilLendingProject.My.Resources.Resources.wall_wallpaper_concrete_colored_painted_textured_concept_53876_31799
+        Me.BackColor = System.Drawing.Color.White
         Me.CancelButton = Me.btnExit
-        Me.ClientSize = New System.Drawing.Size(765, 565)
+        Me.ClientSize = New System.Drawing.Size(681, 415)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.asd)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmLoginPage"

@@ -57,6 +57,21 @@ FeranilLendingProject
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.User_Management__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.User_Management__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FeranilLendingProject.My.Resources.Resources.User_Management__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:FeranilLendingProject.My.Resources.Resources.Users__1_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

@@ -23,15 +23,12 @@ Partial Class users
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Ronelle", "Feranil", "ronelleadnag", "Birthplace?", "Calapan City", "YES", "YES", "YES", "YES"}, -1)
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.btnSave = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -53,27 +50,19 @@ Partial Class users
         Me.onboardingModule = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.reportsModule = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnSave
         '
-        Me.Button1.Location = New System.Drawing.Point(773, 24)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(84, 29)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Save"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(613, 84)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(119, 17)
-        Me.CheckBox1.TabIndex = 2
-        Me.CheckBox1.Text = "Onboarding Module"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.btnSave.Location = New System.Drawing.Point(476, 118)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(84, 29)
+        Me.btnSave.TabIndex = 1
+        Me.btnSave.Text = "Save"
+        Me.btnSave.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -93,13 +82,12 @@ Partial Class users
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Button3)
-        Me.GroupBox1.Controls.Add(Me.Button2)
-        Me.GroupBox1.Controls.Add(Me.CheckBox3)
-        Me.GroupBox1.Controls.Add(Me.Button1)
-        Me.GroupBox1.Controls.Add(Me.CheckBox2)
+        Me.GroupBox1.Controls.Add(Me.ComboBox2)
+        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.btnCancel)
+        Me.GroupBox1.Controls.Add(Me.btnClear)
+        Me.GroupBox1.Controls.Add(Me.btnSave)
         Me.GroupBox1.Controls.Add(Me.ComboBox1)
-        Me.GroupBox1.Controls.Add(Me.CheckBox1)
         Me.GroupBox1.Controls.Add(Me.TextBox5)
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.Label5)
@@ -111,64 +99,46 @@ Partial Class users
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 83)
+        Me.GroupBox1.Location = New System.Drawing.Point(22, 83)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(866, 153)
+        Me.GroupBox1.Size = New System.Drawing.Size(856, 153)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "User Details"
         '
-        'Button3
+        'btnCancel
         '
-        Me.Button3.Location = New System.Drawing.Point(773, 93)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(84, 29)
-        Me.Button3.TabIndex = 13
-        Me.Button3.Text = "Cancel"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnCancel.Location = New System.Drawing.Point(713, 118)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(84, 29)
+        Me.btnCancel.TabIndex = 13
+        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnClear
         '
-        Me.Button2.Location = New System.Drawing.Point(773, 58)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(84, 29)
-        Me.Button2.TabIndex = 12
-        Me.Button2.Text = "Clear Fields"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(476, 84)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(91, 17)
-        Me.CheckBox3.TabIndex = 6
-        Me.CheckBox3.Text = "Users Module"
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(546, 110)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(101, 17)
-        Me.CheckBox2.TabIndex = 6
-        Me.CheckBox2.Text = "Reports Module"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.btnClear.Location = New System.Drawing.Point(596, 118)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(84, 29)
+        Me.btnClear.TabIndex = 12
+        Me.btnClear.Text = "Clear Fields"
+        Me.btnClear.UseVisualStyleBackColor = True
         '
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"", "What was the house number and street name you lived in as a child?", "What were the last four digits of your childhood telephone number?", "What primary school did you attend?", "In what town or city was your first full time job?", "In what town or city did you meet your spouse or partner?", "What is the middle name of your oldest child?", "What are the last five digits of your driver's license number?", "What is your grandmother's (on your mother's side) maiden name?", "What is your spouse or partner's mother's maiden name?", "In what town or city did your parents meet?", "What time of the day were you born? (hh:mm)", "What time of the day was your first child born? (hh:mm)"})
         Me.ComboBox1.Location = New System.Drawing.Point(476, 29)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(228, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(374, 21)
         Me.ComboBox1.TabIndex = 11
         '
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(476, 55)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(228, 20)
+        Me.TextBox5.Size = New System.Drawing.Size(287, 20)
         Me.TextBox5.TabIndex = 7
         '
         'Label6
@@ -242,9 +212,9 @@ Partial Class users
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.userId, Me.firstName, Me.lastName, Me.username, Me.securityQuestion, Me.answer, Me.usersModule, Me.onboardingModule, Me.reportsModule, Me.ColumnHeader1})
         Me.ListView1.HideSelection = False
         Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1})
-        Me.ListView1.Location = New System.Drawing.Point(12, 242)
+        Me.ListView1.Location = New System.Drawing.Point(22, 242)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(876, 296)
+        Me.ListView1.Size = New System.Drawing.Size(856, 296)
         Me.ListView1.TabIndex = 6
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -296,6 +266,24 @@ Partial Class users
         '
         Me.ColumnHeader1.Text = "Settings Module"
         '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"", "Administrator", "User", "Collector"})
+        Me.ComboBox2.Location = New System.Drawing.Point(476, 84)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(287, 21)
+        Me.ComboBox2.TabIndex = 15
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(410, 87)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(60, 13)
+        Me.Label7.TabIndex = 14
+        Me.Label7.Text = "Permission:"
+        '
         'users
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -303,6 +291,7 @@ Partial Class users
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.BackgroundImage = Global.FeranilLendingProject.My.Resources.Resources.User_Management
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.CancelButton = Me.btnCancel
         Me.ClientSize = New System.Drawing.Size(900, 550)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.GroupBox1)
@@ -316,8 +305,7 @@ Partial Class users
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Button1 As Button
-    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents btnSave As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents GroupBox1 As GroupBox
@@ -331,10 +319,8 @@ Partial Class users
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents btnCancel As Button
+    Friend WithEvents btnClear As Button
     Friend WithEvents ListView1 As ListView
     Friend WithEvents userId As ColumnHeader
     Friend WithEvents firstName As ColumnHeader
@@ -346,4 +332,6 @@ Partial Class users
     Friend WithEvents onboardingModule As ColumnHeader
     Friend WithEvents reportsModule As ColumnHeader
     Friend WithEvents ColumnHeader1 As ColumnHeader
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents Label7 As Label
 End Class
